@@ -8,7 +8,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/Portfolio/',   // Capital 'P' matching your GitHub repo name
+  base: '/',
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
